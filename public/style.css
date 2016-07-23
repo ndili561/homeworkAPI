@@ -1,0 +1,17 @@
+#map {
+  height:500px;
+  width:500px;
+}
+#film-form{
+  text-align: center;
+}
+
+#film-info{
+  text-align: center;
+  display: inline-flex;
+
+}
+ul li{
+  text-align: center;
+ display: block;
+}
