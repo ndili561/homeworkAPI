@@ -15,15 +15,9 @@ var handleClick = function(event){
   
   if(document.getElementById('film-info').getElementsByTagName('li').length >= 1){
     var ul = document.getElementById('film-info')
-    // ul.removeChild(ul.childNodes[0]);
-    // ul.removeChild(ul.childNodes[1]);
-    // ul.removeChild(ul.childNodes[2]);
-    // ul.removeChild(ul.childNodes[3]);
      while(ul.hasChildNodes()){
       ul.removeChild(ul.lastChild);
      }
-    // var image = document.getElementById('image');
-    // image.parentNode.removeChild(image);
   }
   var text = document.getElementById('film-text-input');
   var film = "http://www.omdbapi.com/?t=" + text.value+"&tomatoes=true";
