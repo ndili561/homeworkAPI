@@ -1,17 +1,42 @@
-#map {
-  height:500px;
-  width:500px;
+body{
+  font-family: 'Inconsolata', monospace;
+  background-size: 80%;
+  background-image: url('cinema.jpg');
+  background-repeat: no-repeat;
 }
+
 #film-form{
   text-align: center;
 }
 
 #film-info{
-  text-align: center;
-  display: inline-flex;
+ text-align: center;
+ background-color: darkgray;
+border-radius: 30px;
+ margin-right: 20px;
+ margin-top: 150px;
+ font-weight: bold;
 
 }
 ul li{
   text-align: center;
  display: block;
+}
+
+#film-text-input{
+  margin-top: 100px;
+
+}
+img{
+  float: right;
+    
+      margin-bottom: 60px;
+      width: 350px;
+      margin-top: -170px;
+      padding-right: 20px;
+}
+
+
+
+
 }
